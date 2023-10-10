@@ -1,4 +1,4 @@
-$plainPassword = "6##qU3HYBdmWod8$"
+$plainPassword = "<password>"
 $secPassword = ConvertTo-SecureString -String $plainPassword -AsPlainText -Force
 
 $user = @{
@@ -19,7 +19,7 @@ Path = "OU=USERS SERVICE ACCOUNTS,OU=CSV-NEW,DC=csv-dom,DC=local"
 }
 
 
-$plainPassword = "ieNURH4*U7DMkgh9"
+$plainPassword = "<password>"
 $secPassword = ConvertTo-SecureString -String $plainPassword -AsPlainText -Force
 
 $user = @{
